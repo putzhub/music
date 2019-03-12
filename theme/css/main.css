@@ -15,7 +15,8 @@
 /***** Global *****/
 /* Body */
 body {
-    background: url("wavecut.png");
+    background: #121212;
+    color: #DFDFDF;
     font-family:'Open Sans', sans-serif;
     line-height: 1.429;
     margin: 0;
@@ -32,11 +33,11 @@ h5 {font-size: 1.143em}	/* 16px */
 h6 {font-size: 1em}		/* 14px */
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 400;
+    color:#4E9A06;
+	font-weight: 300;
 	line-height: 1.1;
 	margin-bottom: .8em;
 	font-family:'Open Sans', sans-serif;
-	
 }
 
 h3, h4, h5, h6 { margin-top: .8em; }
@@ -46,22 +47,23 @@ hr { border: 2px solid #EEEEEE; }
 /* Anchors */
 a {outline: 0;}
 a img {border: 0px; text-decoration: none;}
+h1 a:link, h1 a:visited {text-decoration: none;}
 a:link, a:visited {
-	color: #7A4700;
+	color: #5eab17;
 	padding: 0 1px;
 	text-decoration: underline;
 }
 a:hover, a:active {
-	background-color: #7A4700;
+	background-color: #5eab17;
 	color: #fff;
 	text-decoration: none;
 	text-shadow: 1px 1px 1px #333;
 }
 
 h1 a:hover {
-    background-color: inherit
+    background-color: inherit;
 }
-	
+
 /* Paragraphs */
 p {margin-bottom: 1.143em;}
 
@@ -156,16 +158,16 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	/* Banner */
 	#banner h1 {font-size: 3.571em; line-height: 0;}
 	#banner h1 a:link, #banner h1 a:visited {
-		color: #000305;
+		color: #fff;
 		display: block;
-		font-weight: bold;
+		font-weight: 300;
 		margin: 0 0 .6em .2em;
 		text-decoration: none;
 		width: 427px;
 	}
 	#banner h1 a:hover, #banner h1 a:active {
 		background: none;
-		color: #7A4700;
+		color: #5eab17;
 		text-shadow: none;
 	}
 	
@@ -174,10 +176,11 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	/* Main Nav */
 	#banner nav {
 		background: #000305;
+        border: 1px solid #EAEAEA;
 		font-size: 1.143em;
 		height: 40px;
 		line-height: 30px;
-		margin: 0 auto 2em auto;
+		margin: 0 auto 6px auto;
 		padding: 0;
 		text-align: center;
 		width: 800px;
@@ -199,7 +202,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	}
 	#banner nav a:hover, #banner nav a:active,
 	#banner nav .active a:link, #banner nav .active a:visited {
-		background: #C74451;
+		background: #b92c3a;
 		color: #fff;           
 		text-shadow: none !important;
 	}
@@ -218,17 +221,16 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	Featured
 *****************/
 #featured {
-	
-	background: url("toptop.png") no-repeat, url('downdown.png') no-repeat, url("white.png") repeat;
-	background-position: top,bottom,top;
-	margin-bottom: 2em;
+	background: #202020;
+	border: 1px solid #EAEAEA;
+    margin-bottom: 6px;
 	overflow: hidden;
 	padding: 20px;
 	width: 760px;
 	
-	border-radius: 0px;
-	-moz-border-radius: 0px;
-	-webkit-border-radius: 0px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
 }
 
 #featured figure {
@@ -249,16 +251,17 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	Body
 *****************/
 #content {
-	background: url("toptop.png") no-repeat, url('downdown.png') no-repeat, url("white.png") repeat;
+	background: #202020;
 	background-position: top,bottom,top;
-	margin-bottom: 2em;
+    border: 1px solid #EAEAEA;
+	margin-bottom: 6px;
 	overflow: hidden;
 	padding: 20px 20px;
 	width: 760px;
 	
-	border-radius: 0px;
-	-moz-border-radius: 0px;
-	-webkit-border-radius: 0px;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
 }
 
 /*
@@ -269,7 +272,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 #extras ul {list-style: none; margin: 0;}
 #extras li {border-bottom: 1px solid #fff;}
 #extras h2 {
-	color: #000000;
+	color: #fff;
 	font-size: 1.429em;
 	margin-bottom: .25em;
 	padding: 0 3px;
@@ -366,7 +369,7 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 #content > .hentry {padding: 1em 0;}
 .hentry img{display : none ;}
 .entry-title {font-size: 3em; margin-bottom: 10px; margin-top: 0;}
-.entry-title a:link, .entry-title a:visited {text-decoration: none; color: #333;}
+.entry-title a:link, .entry-title a:visited {text-decoration: none;}
 .entry-title a:visited {background-color: #fff;}
 
 .hentry .post-info * {font-style: normal;}
