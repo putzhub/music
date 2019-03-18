@@ -284,7 +284,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 }
 
 #extras a:link, #extras a:visited {
-	color: #444;
+	color: #888;
 	display: block;
 	border-bottom: 1px solid #F4E3E3;
 	text-decoration: none;
