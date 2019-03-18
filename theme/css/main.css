@@ -30,10 +30,6 @@ body {
     body {
         font-size: 24px;
     }
-    
-    #banner nav {
-        height: 1.5em;
-    }
 }
 
 /* Headings */
@@ -192,7 +188,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 		font-size: 1.143em;
 		height: 40px;
 		line-height: 30px;
-		margin: 0 20px 6px 20px;
+		margin: 12px 20px 6px 20px;
 		padding: 0;
 		text-align: center;
 		
