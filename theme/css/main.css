@@ -18,6 +18,7 @@ body {
     background: #121212;
     color: #DFDFDF;
     font-family:'Open Sans', sans-serif;
+    font-size: 1em;
     line-height: 1.429;
     margin: 6px auto;
     padding: 0;
@@ -153,7 +154,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 *****************/
 #banner {
 	margin: 0;
-	padding: 6px 0 0 0;
+	padding: 0;
 }
 
 	/* Banner */
@@ -181,7 +182,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 		font-size: 1.143em;
 		height: 40px;
 		line-height: 30px;
-		margin: 0 auto 6px auto;
+		margin: 0 20px 6px 20px;
 		padding: 0;
 		text-align: center;
 		
@@ -223,7 +224,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 #featured {
 	background: #202020;
 	border: 1px solid #EAEAEA;
-    margin-bottom: 6px;
+    margin: 6px 20px 0 20px; 
 	overflow: hidden;
 	padding: 20px;
 	
@@ -253,7 +254,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	background: #202020;
 	background-position: top,bottom,top;
     border: 1px solid #EAEAEA;
-	margin-bottom: 6px;
+	margin: 6px 20px 0 20px;
 	overflow: hidden;
 	padding: 20px 20px;
 	
@@ -265,7 +266,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 /*
 	Extras
 *****************/
-#extras {margin: 0 auto 3em auto; overflow: hidden;}
+#extras {margin: 6px 20px; overflow: hidden;}
 
 #extras ul {list-style: none; margin: 0;}
 #extras li {border-bottom: 1px solid #fff;}
