@@ -30,6 +30,10 @@ body {
     body {
         font-size: 24px;
     }
+    
+    #banner nav {
+        height: 1.5em;
+    }
 }
 
 /* Headings */
@@ -95,7 +99,7 @@ ol {
 .post-info {
     float:right;
     margin:5px;
-    padding:9px;
+    padding:16px;
 }
 
 .post-info p{
@@ -232,7 +236,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	border: 1px solid #EAEAEA;
     margin: 6px 20px 0 20px; 
 	overflow: hidden;
-	padding: 20px;
+	padding: 30px;
 	
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -262,7 +266,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
     border: 1px solid #EAEAEA;
 	margin: 6px 20px 0 20px;
 	overflow: hidden;
-	padding: 20px 20px;
+	padding: 30px;
 	
     border-radius: 5px;
     -moz-border-radius: 5px;
