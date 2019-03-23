@@ -78,8 +78,8 @@ p {margin-bottom: 1.143em;}
 strong, b {font-weight: bold;}
 em, i {font-style: italic;}
 
-::-moz-selection {background: #F6CF74; color: #fff;}
-::selection {background: #F6CF74; color: #fff;}
+::-moz-selection {background: #777; color: #fff;}
+::selection {background: #777; color: #fff;}
 
 /* Lists */
 ul {
@@ -247,7 +247,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 }
 #featured figure img {display: block; float: right;}
 
-#featured h2 {color: #C74451; font-size: 1.714em; margin-bottom: 0.333em;}
+#featured h2 {font-size: 1.714em; margin-bottom: 0.333em;}
 #featured h3 {font-size: 1.429em; margin-bottom: .5em;}
 
 #featured h3 a:link, #featured h3 a:visited {color: #000305; text-decoration: none;}
@@ -291,6 +291,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 
 #player {
     width: 100%;
+    font-size: 1em;
 }
 
 /*
