@@ -72,6 +72,13 @@ h1 a:hover {
     background-color: inherit;
 }
 
+/* Images */
+#article-image {
+    max-width: 100%;
+    max-height: 12em;
+    border: 1px solid #000;
+}
+
 /* Paragraphs */
 p {margin-bottom: 1.143em;}
 
