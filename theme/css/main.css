@@ -28,7 +28,7 @@ body {
 
 @media screen and (min-resolution: 300dpi) and (orientation: portrait) {
     body {
-        font: 36px;
+        font: 24px;
     }
 }
 
