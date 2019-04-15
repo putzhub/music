@@ -32,7 +32,7 @@ body {
     }
 }
 
-@media screen and (min-resolution: 300dpi){
+@media screen and (min-resolution: 140dpi) and (orientation: portrait){
     body {
         font: 32px;
         max-width: 32em;
