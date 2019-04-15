@@ -24,8 +24,6 @@ body {
     padding: 0;
     text-align: left;
     max-width: 64em;
-    /*min-width: 30em;*/
-    width: 100%;
 }
 
 /* Headings */
@@ -95,10 +93,11 @@ ol {
 }
 
 .post-info {
-    float:left;
+    display: block;
     padding-left: 5px; 
     padding-right:16px;
     border-left: 1px solid #FFF;
+    margin-bottom: 10px;
 }
 
 .post-info a{
@@ -191,8 +190,8 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
         border: 1px solid #EAEAEA;
 		font-size: 1.143em;
 		height: 40px;
-		line-height: 30px;
-		margin: 12px 20px 6px 20px;
+		line-height: 1.5;
+		margin: auto;
 		padding: 0;
 		text-align: center;
 		
@@ -202,7 +201,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	}
 	
 	#banner nav ul {list-style: none; margin: 0 auto;}
-	#banner nav li {border-right: 1px solid #FFF; float: left; display: inline; margin: 0;}
+	#banner nav li {float: left; display: inline; margin: 0;}
 	
 	#banner nav a:link, #banner nav a:visited {
 		color: #fff;
@@ -328,25 +327,23 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 
 #extras a:hover, #extras a:active {color: #fff;}
 
-	/* Blogroll */
-	#extras .blogroll {
-		float: left;
-		width: 30em;
-	}
-	
-	#extras .blogroll li {float: left; margin: 0 20px 0 0; width: 185px;}
-	
-	/* Social */
-	#extras .social {
-		float: right;
-		width: 12em;
-	}
-	
-	#extras div[class='social'] a {
-		background-repeat: no-repeat;
-		background-position: 3px 6px;
-		padding-left: 25px;
-	}
+/* Blogroll */
+#extras .blogroll {
+    float: left;
+    max-width: 50%;
+}
+
+#extras .blogroll li {float: left; margin: 6px;}
+
+/* Social */
+#extras .social {
+    float: right;
+    max-width: 50%;
+}
+
+#extras .social a {
+    padding: 6px 25px;
+}
 
 
 /*
@@ -370,9 +367,8 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 .entry-title a:visited {background-color: #fff;}
 
 .hentry .post-info * {font-style: normal;}
-
 	/* Content */
-	.hentry footer {margin-bottom: 2em;}
+	.hentry footer {margin-bottom: 1em;}
 	.hentry footer address {display: inline;}
 	#posts-list footer address {display: block;}
 
@@ -381,9 +377,9 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 	#posts-list .hentry {padding-left: 10px; position: relative;}
 	
 	#posts-list footer {
-		left: 10px;
+		left: 30px;
 		position: relative;
-        float: left;
-		top: 0.5em;
-		width: 190px;
+        float: right;
+		top: 0em;
+		width: 100%;
 	}
