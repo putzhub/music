@@ -13,18 +13,17 @@
 @import url("typogrify.css");
 
 /***** Global *****/
-
-
 /* Body */
 body {
     background: #121212;
     color: #DFDFDF;
     font-family:'Open Sans', sans-serif;
+    font-size: 1em;
     line-height: 1.429;
     margin: 6px auto;
     padding: 0;
     text-align: left;
-    max-width: 960px;
+    max-width: 64em;
 }
 
 /* Headings */
