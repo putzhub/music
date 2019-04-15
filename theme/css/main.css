@@ -21,19 +21,19 @@
 
 @media screen and (min-resolution: 141dpi) and (max-resolution: 199dpi) {
     body {
-        font-size: 1.25em;
+        font-size: 18px;
     }
 }
 
 @media screen and (min-resolution: 200dpi) and (max-resolution: 319dpi) {
     body {
-        font-size: 1.5em;
+        font-size: 22px;
     }
 }
 
 @media screen and (min-resolution: 320dpi) {
     body {
-        font-size: 2em;
+        font-size: 28px;
     }
 }
 
