@@ -13,6 +13,17 @@
 @import url("typogrify.css");
 
 /***** Global *****/
+@media screen and (min-resolution: 96dpi) and (max-resolution: 140dpi){
+    body {
+        font: 1em;
+    }
+}
+
+@media screen and (min-resolution: 300dpi){
+    body {
+        font: 32px;
+    }
+}
 
 /* Body */
 body {
@@ -24,7 +35,6 @@ body {
     padding: 0;
     text-align: left;
     max-width: 64em;
-    text-rendering:geometricPrecision;
 }
 
 /* Headings */
