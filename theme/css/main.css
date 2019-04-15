@@ -26,15 +26,16 @@ body {
     max-width: 64em;
 }
 
-@media screen and (min-resolution: 96dpi) and (max-resolution: 140dpi){
+@media screen and (min-resolution: 300dpi) and (orientation: portrait) {
     body {
-        font: 1em;
+        font: 36px;
     }
 }
 
-@media screen and (min-resolution: 300dpi){
+
+@media screen and (min-resolution: 96dpi) and (max-resolution: 140dpi){
     body {
-        font: 3em;
+        font: 1em;
     }
 }
 
