@@ -24,6 +24,7 @@ body {
     padding: 0;
     text-align: left;
     max-width: 64em;
+    min-width: 30em;
 }
 
 /* Headings */
@@ -345,50 +346,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 		background-position: 3px 6px;
 		padding-left: 25px;
 	}
-	
-		/* Icons */
-		
 
-		.social a[href*='facebook.com'] {background-image: url('../images/icons/facebook.png');
-		background-size: 16px 16px; }
-		.social a[href*='twitter.com'] {background-image: url('../images/icons/twitter_alt.png');
-		background-size: 16px 16px;  }
-		.social a[href*='quora.com'] {background-image: url('../images/icons/quora.png');
-		background-size: 16px 16px; }
-		.social a[href*='github.com'] {background-image: url('../images/icons/github.png');
-		background-size: 16px 16px; }
-		.social a[href*='news.ycombinator.com'] {background-image: url('../images/icons/hacker_news.png');
-		background-size: 16px 16px; }
-		.social a[href*='instapaper.com'] {background-image: url('../images/icons/instapaper.png');
-		background-size: 16px 16px; }
-		.social a[href*='hypem.com'] {background-image: url('../images/icons/hype_machine.png');
-		background-size: 16px 16px; }
-
-
-/*
-	About
-*****************/
-#about {
-	background: #fff;
-	font-style: normal;
-	margin-bottom: 2em;
-	overflow: hidden;
-	padding: 20px;
-	text-align: left;
-	width: 80%;
-	
-	border-radius: 10px;
-	-moz-border-radius: 10px;
-	-webkit-border-radius: 10px;
-}
-
-#about .primary {float: left; width: 165px;}
-#about .primary strong {color: #C64350; display: block; font-size: 1.286em;}
-#about .photo {float: left; margin: 5px 20px;}
-
-#about .url:link, #about .url:visited {text-decoration: none;}
-
-#about .bio {float: right; width: 500px;}
 
 /*
 	Footer
@@ -428,55 +386,3 @@ li:last-child .hentry, #content > .hentry {border: 0; margin: 0;}
 		top: 0.5em;
 		width: 190px;
 	}
-	
-	/* About the Author */
-	#about-author {
-		background: #f9f9f9;
-		clear: both;
-		font-style: normal;
-		margin: 2em 0;
-		padding: 10px 20px 15px 20px;
-		
-		border-radius: 5px;
-		-moz-border-radius: 5px;
-		-webkit-border-radius: 5px;
-	}
-	
-	#about-author strong {
-		color: #C64350;
-		clear: both;
-		display: block;
-		font-size: 1.429em;
-	}
-	
-	#about-author .photo {border: 1px solid #ddd; float: left; margin: 5px 1em 0 0;}
-	
-	/* Comments */
-	#comments-list {list-style: none; margin: 0 1em;}
-	#comments-list blockquote {
-		background: #f8f8f8;
-		clear: both;
-		font-style: normal;
-		margin: 0;
-		padding: 15px 20px;
-		
-		border-radius: 5px;
-		-moz-border-radius: 5px;
-		-webkit-border-radius: 5px;
-	}
-	#comments-list footer {color: #888; padding: .5em 1em 0 0; text-align: right;}
-	
-	#comments-list li:nth-child(2n) blockquote {background: #F5f5f5;}
-	
-	/* Add a Comment */
-	#add-comment label {clear: left; float: left; text-align: left; width: 150px;}
-	#add-comment input[type='text'],
-	#add-comment input[type='email'],
-	#add-comment input[type='url'] {float: left; width: 200px;}
-	
-	#add-comment textarea {float: left; height: 150px; width: 495px;}
-	
-	#add-comment p.req {clear: both; margin: 0 .5em 1em 0; text-align: right;}
-	
-	#add-comment input[type='submit'] {float: right; margin: 0 .5em;}
-	#add-comment * {margin-bottom: .5em;}
