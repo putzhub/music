@@ -14,29 +14,18 @@
 
 /***** Global *****/
 
-@media screen and (min-resolution: 96dpi) and (max-resolution: 140dpi){
-    body {
-        font: 1em;
-    }
-}
-
-@media screen and (min-resolution: 300dpi){
-    body {
-        font: 32px;
-    }
-}
-
 /* Body */
 body {
     background: #121212;
     color: #DFDFDF;
     font-family:'Open Sans', sans-serif;
     font-size: 1em;
-    line-height: 1.429;
+    line-height: 1.5;
     margin: 6px auto;
     padding: 0;
     text-align: left;
     max-width: 64em;
+    text-rendering:geometricPrecision;
 }
 
 /* Headings */
