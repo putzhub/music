@@ -341,7 +341,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	/* Blogroll */
 	#extras .blogroll {
 		float: left;
-		width: 615px;
+		width: 30em;
 	}
 	
 	#extras .blogroll li {float: left; margin: 0 20px 0 0; width: 185px;}
@@ -349,7 +349,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 	/* Social */
 	#extras .social {
 		float: right;
-		width: 175px;
+		width: 12em;
 	}
 	
 	#extras div[class='social'] a {
