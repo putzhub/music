@@ -24,7 +24,8 @@ body {
     padding: 0;
     text-align: left;
     max-width: 64em;
-    min-width: 30em;
+    /*min-width: 30em;*/
+    width: 100%;
 }
 
 /* Headings */
