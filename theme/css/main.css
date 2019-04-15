@@ -13,36 +13,13 @@
 @import url("typogrify.css");
 
 /***** Global *****/
-@media screen and (min-resolution: 50dpi) and (max-resolution: 140dpi) {
-    body {
-        font-size: 1em;
-    }
-}
 
-@media screen and (min-resolution: 141dpi) and (max-resolution: 199dpi) {
-    body {
-        font-size: 18px;
-    }
-}
-
-@media screen and (min-resolution: 200dpi) and (max-resolution: 319dpi) {
-    body {
-        font-size: 22px;
-    }
-}
-
-@media screen and (min-resolution: 320dpi) {
-    body {
-        font-size: 28px;
-    }
-}
 
 /* Body */
 body {
     background: #121212;
     color: #DFDFDF;
     font-family:'Open Sans', sans-serif;
-    font-size: 1em;
     line-height: 1.429;
     margin: 6px auto;
     padding: 0;
