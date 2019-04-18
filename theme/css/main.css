@@ -98,6 +98,7 @@ ol {
     padding-right:16px;
     border-left: 1px solid #FFF;
     margin-bottom: 10px;
+    margin-left: 6px;
 }
 
 .post-info a{
@@ -259,13 +260,6 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 /*
 	Body
 *****************/
-#article-image {
-    display: block;
-    max-width: 100%;
-    max-height: 12em;
-    border: 1px solid #000;
-}
-
 #content {
 	background: #202020;
     border: 1px solid #EAEAEA;
@@ -278,14 +272,27 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
     -webkit-border-radius: 5px;
 }
 
+#article-image {
+    display: block;
+    max-width: 100%;
+    max-height: 16em;
+    border: 1px solid #000;
+}
+
 /*
     Media Player
 *****************/
 
+.thumbnail {
+    border: 3px solid #000;
+    width: 256px;
+    height: 256px;
+}
+
 .coverart {
     border: 3px solid #000;
     display: block;
-    max-width: 600px;
+    max-width: 100%;
     max-height: 600px;
     margin-left: auto;
     margin-right: auto;
