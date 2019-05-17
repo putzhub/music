@@ -17,6 +17,22 @@
         <!--[if lt IE 7]>
                 <link rel="stylesheet" type="text/css" media="all" href="https://putz.space/css/ie6.css"/><![endif]-->
 
+        <script>
+        var song_list = [];
+
+        function play_music(song) {
+            var player = document.getElementById('player');
+
+            if (player.paused) {
+                player.src=song;
+                player.play();
+            } else {
+                player.pause()
+                player.src=song;
+                player.play();
+            }
+        }
+        </script>
 </head>
 
 <body id="index" class="home">
@@ -32,7 +48,9 @@
 <h1>Archives for putz.space</h1>
 
 <dl>
-    <dt>sáb 04 mayo 2019</dt>
+    <dt>jue 16 mayo 2019</dt>
+    <dd><a href="https://putz.space/2019/05/16/diy-car-repair/">How I learned DIY auto repair</a></dd>
+    <dt>dom 05 mayo 2019</dt>
     <dd><a href="https://putz.space/music/demos/the-time-it-takes">Groove Masta Putz - The Time It Takes</a></dd>
     <dt>sáb 04 mayo 2019</dt>
     <dd><a href="https://putz.space/2019/05/04/true-delusions-judee-still/">True Delusions - Song for Judee Sill and Other Songs</a></dd>

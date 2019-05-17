@@ -17,6 +17,22 @@
         <!--[if lt IE 7]>
                 <link rel="stylesheet" type="text/css" media="all" href="https://putz.space/css/ie6.css"/><![endif]-->
 
+        <script>
+        var song_list = [];
+
+        function play_music(song) {
+            var player = document.getElementById('player');
+
+            if (player.paused) {
+                player.src=song;
+                player.play();
+            } else {
+                player.pause()
+                player.src=song;
+                player.play();
+            }
+        }
+        </script>
 </head>
 
 <body id="index" class="home">
@@ -35,8 +51,8 @@
                 <article>
                     <h1 class="entry-title"><a href="https://putz.space/music/demos/the-time-it-takes">Groove Masta Putz - The Time It Takes</a></h1> 
 <footer class="post-info">
-        <abbr class="published" title="2019-05-04T02:10:28.071900-05:00">
-                sáb 04 mayo 2019
+        <abbr class="published" title="2019-05-05T00:00:00-05:00">
+                dom 05 mayo 2019
         </abbr>
 
 <p class="tag-list"><a href="https://putz.space/tag/music.html">#music</a> <a href="https://putz.space/tag/demo.html">#demo</a> </p></footer><!-- /.post-info --><p><img alt="Space Skeleton Gif" src="https://putz.space/blog/covers/the-time-it-takes.gif" id="article-image" /><a target="_blank" href="https://jjjjjjjjjjohn.tumblr.com/post/101986737985">img source</a></p>
@@ -63,7 +79,7 @@
                 
                 <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2019-04-17T22:37:28.477051-05:00">
+        <abbr class="published" title="2019-04-17T00:00:00-05:00">
                 mié 17 abril 2019
         </abbr>
 

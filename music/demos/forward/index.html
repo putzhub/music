@@ -17,6 +17,22 @@
         <!--[if lt IE 7]>
                 <link rel="stylesheet" type="text/css" media="all" href="https://putz.space/css/ie6.css"/><![endif]-->
 
+        <script>
+        var song_list = [];
+
+        function play_music(song) {
+            var player = document.getElementById('player');
+
+            if (player.paused) {
+                player.src=song;
+                player.play();
+            } else {
+                player.pause()
+                player.src=song;
+                player.play();
+            }
+        }
+        </script>
 </head>
 
 <body id="index" class="home">
@@ -38,7 +54,7 @@
 
     <div class="entry-content">
 <footer class="post-info">
-        <abbr class="published" title="2019-04-17T22:37:28.477051-05:00">
+        <abbr class="published" title="2019-04-17T00:00:00-05:00">
                 mié 17 abril 2019
         </abbr>
 
