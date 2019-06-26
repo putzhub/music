@@ -234,9 +234,9 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 #featured {
 	background: #202020;
 	border: 1px solid #EAEAEA;
-    margin: 6px 20px 0 20px; 
+    margin: 6px 10px 0 10px; 
 	overflow: hidden;
-	padding: 30px;
+	padding: 20px;
 	
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -263,9 +263,9 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 #content {
 	background: #202020;
     border: 1px solid #EAEAEA;
-	margin: 6px 20px 0 20px;
+	margin: 6px 10px 0 10px;
 	overflow: hidden;
-	padding: 30px;
+	padding: 20px;
 	
     border-radius: 5px;
     -moz-border-radius: 5px;
@@ -279,6 +279,26 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
     border: 1px solid #000;
 }
 
+#toc-header {
+    text-align: center;
+    width: 100%;
+    font-weight: 600;
+    font-size: 1em;
+    color: #DFDFDF;
+    padding: 0;
+    margin: 0;
+}
+
+#toc { /* table of contents */
+    display: inline-block;
+    background: #333;
+    border: 1px solid #FFF;
+    padding: 10px;
+
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;    
+}
 /*
     Media Player
 *****************/
