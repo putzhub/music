@@ -28,8 +28,8 @@ body {
 
 /* Headings */
 h1 {font-size: 2em }
-h2 {font-size: 1.571em}	/* 22px */
-h3 {font-size: 1.429em}	/* 20px */
+h2 {font-size: 1.571em;}	/* 22px */
+h3 {font-size: 1.429em; font-style: italic;}	/* 20px */
 h4 {font-size: 1.286em}	/* 18px */
 h5 {font-size: 1.143em}	/* 16px */
 h6 {font-size: 1em}		/* 14px */
@@ -83,13 +83,15 @@ em, i {font-style: italic;}
 
 /* Lists */
 ul {
-	list-style: outside disc;
+	list-style: outside square;
 	margin: 1em 0 1.5em 1.5em;
+    color: #BBB;
 }
 
 ol {
 	list-style: outside decimal;
 	margin: 1em 0 1.5em 1.5em;
+    color: #BBB;
 }
 
 .post-info {
@@ -299,6 +301,20 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;    
 }
+
+#toc ul{
+    margin-bottom: 0px;
+    margin-top: 0px;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#toc ul ul{
+    list-style-type: square;
+    color: #AAA;
+}
+
+
 /*
     Media Player
 *****************/
