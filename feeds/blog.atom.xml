@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>putz.space - blog</title><link href="https://putz.space/" rel="alternate"></link><link href="https://putz.space/feeds/blog.atom.xml" rel="self"></link><id>https://putz.space/</id><updated>2019-09-01T14:45:00-05:00</updated><entry><title>Introduction to Mastodon</title><link href="https://putz.space/blog/intro-to-mastodon/" rel="alternate"></link><published>2019-09-01T14:45:00-05:00</published><updated>2019-09-01T14:45:00-05:00</updated><author><name>putz</name></author><id>tag:putz.space,2019-09-01:/blog/intro-to-mastodon/</id><summary type="html">&lt;p&gt;I decided to create a quick start guide for people to reference that's visually focused. I didn't find any guides that I particularly liked for onboarding a complete beginner, so I made my own. Feel free to share this as you please!&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a name="faq"&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>putz.space - blog</title><link href="https://putz.space/" rel="alternate"></link><link href="https://putz.space/feeds/blog.atom.xml" rel="self"></link><id>https://putz.space/</id><updated>2019-09-01T14:46:25-05:00</updated><entry><title>Introduction to Mastodon</title><link href="https://putz.space/blog/intro-to-mastodon/" rel="alternate"></link><published>2019-09-01T14:46:25-05:00</published><updated>2019-09-01T14:46:25-05:00</updated><author><name>putz</name></author><id>tag:putz.space,2019-09-01:/blog/intro-to-mastodon/</id><summary type="html">&lt;p&gt;I decided to create a quick start guide for people to reference that's visually focused. I didn't find any guides that I particularly liked for onboarding a complete beginner, so I made my own. Feel free to share this as you please!&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a name="faq"&gt;&lt;/p&gt;
 &lt;h2&gt;F.A.Q: How does it work?&lt;/h2&gt;
 &lt;p&gt;&lt;/a&gt;
 The following is meant as a quick guide. Focused on a heavy use of visuals and aimed at taking no more than 10 minutes to read. Useful as a reference.&lt;/p&gt;
@@ -55,11 +55,13 @@ The &lt;strong&gt;Local&lt;/strong&gt; timeline is the place where everyone who 
 &lt;p&gt;&lt;a name="timeline-federated"&gt;&lt;/p&gt;
 &lt;h3&gt;Federated&lt;/h3&gt;
 &lt;p&gt;&lt;/a&gt;
-The &lt;strong&gt;Federated&lt;/strong&gt; timeline is a feed of:
-    * everyone who is posting public messages on the &lt;strong&gt;Local&lt;/strong&gt; timeline.
-    * people who who are followed by anyone on the server 
-    * boosted posts of the people those people follow
-    * If connected to a relay, everyone on the fediverse&lt;/p&gt;
+The &lt;strong&gt;Federated&lt;/strong&gt; timeline is a feed of:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;everyone who is posting public messages on the &lt;strong&gt;Local&lt;/strong&gt; timeline.&lt;/li&gt;
+&lt;li&gt;people who who are followed by anyone on the server &lt;/li&gt;
+&lt;li&gt;boosted posts of the people those people follow&lt;/li&gt;
+&lt;li&gt;If connected to a relay, everyone on the fediverse&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;In short, depending on how your admin has configured it: everyone. In my case, we're connected to a relay. However this is not necessary, in which case the community will be much smaller, but maybe you're looking for that.&lt;/p&gt;
 &lt;p&gt;&lt;img alt="federated timeline" src="https://putz.space/images/mastodon/federated-feed.png" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a name="timeline-notifications"&gt;&lt;/p&gt;
@@ -117,11 +119,13 @@ In order to post you must either click the compose button in the bottom right co
 &lt;p&gt;&lt;a name="post-privacy"&gt;&lt;/p&gt;
 &lt;h3&gt;Privacy settings&lt;/h3&gt;
 &lt;p&gt;&lt;/a&gt;
-Mastodon allows you to set 4 different privacy settings:
-    * Public: everyone can see it (federated)
-    * Unfederated: only local public timeline can see it
-    * Followers: only followers can see (not local or federated timelines)
-    * Direct message: only addressed users get the message&lt;/p&gt;
+Mastodon allows you to set 4 different privacy settings:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Public: everyone can see it (federated)&lt;/li&gt;
+&lt;li&gt;Unfederated: only local public timeline can see it&lt;/li&gt;
+&lt;li&gt;Followers: only followers can see (not local or federated timelines)&lt;/li&gt;
+&lt;li&gt;Direct message: only addressed users get the message&lt;/li&gt;
+&lt;/ul&gt;
 &lt;p&gt;&lt;img src="https://putz.space/images/mastodon/post-privacy.png" alt="post privacy settings" /&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a name="content-warnings"&gt;&lt;/p&gt;
 &lt;h3&gt;Content Warnings&lt;/h3&gt;
