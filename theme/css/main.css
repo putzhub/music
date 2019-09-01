@@ -314,6 +314,16 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
     color: #AAA;
 }
 
+/* Comments Section */ 
+.mastodon-embed .activity-stream .entry {
+    background: #202020;
+    color: #DFDFDF;
+}
+
+.detailed-status__meta {
+    color: #5eab17;
+    
+}
 
 /*
     Media Player
