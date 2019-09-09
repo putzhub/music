@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>putz.space</title><link href="https://putz.space/" rel="alternate"></link><link href="https://putz.space/feeds/all.atom.xml" rel="self"></link><id>https://putz.space/</id><updated>2019-09-02T22:10:28-05:00</updated><entry><title>Introduction to Mastodon</title><link href="https://putz.space/blog/intro-to-mastodon/" rel="alternate"></link><published>2019-09-02T22:10:28-05:00</published><updated>2019-09-02T22:10:28-05:00</updated><author><name>putz</name></author><id>tag:putz.space,2019-09-02:/blog/intro-to-mastodon/</id><summary type="html">&lt;p&gt;I decided to create a quick start guide for people to reference that's visually focused. I didn't find any guides that I particularly liked for onboarding a complete beginner, so I made my own. Feel free to share this as you please!&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a name="faq"&gt;&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>putz.space</title><link href="https://putz.space/" rel="alternate"></link><link href="https://putz.space/feeds/all.atom.xml" rel="self"></link><id>https://putz.space/</id><updated>2019-09-09T18:48:41-05:00</updated><entry><title>Introduction to Mastodon</title><link href="https://putz.space/blog/intro-to-mastodon/" rel="alternate"></link><published>2019-09-09T18:48:41-05:00</published><updated>2019-09-09T18:48:41-05:00</updated><author><name>putz</name></author><id>tag:putz.space,2019-09-09:/blog/intro-to-mastodon/</id><summary type="html">&lt;p&gt;I decided to create a quick start guide for people to reference that's visually focused. I didn't find any guides that I particularly liked for onboarding a complete beginner, so I made my own. Feel free to share this as you please!&lt;/p&gt;</summary><content type="html">&lt;p&gt;&lt;a name="faq"&gt;&lt;/p&gt;
 &lt;h2&gt;F.A.Q: How does it work?&lt;/h2&gt;
 &lt;p&gt;&lt;/a&gt;
 The following is meant as a quick guide. Focused on a heavy use of visuals. Should take no more than 10 minutes to read. Useful as a reference too.&lt;/p&gt;
@@ -157,8 +157,8 @@ To post click the compose button in the bottom right corner or the reply arrow o
 Mastodon allows you to set 4 different privacy settings:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;strong&gt;Public:&lt;/strong&gt; everyone can see it (federated)&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Unfederated:&lt;/strong&gt; only local public timeline can see it&lt;/li&gt;
-&lt;li&gt;&lt;strong&gt;Private:&lt;/strong&gt; only followers can see (not local or federated timelines)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Unlisted:&lt;/strong&gt; everyone can see it, but it's not on the public timelines&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Private:&lt;/strong&gt; only followers can see (not the public)&lt;/li&gt;
 &lt;li&gt;&lt;strong&gt;Direct message:&lt;/strong&gt; only addressed users get the message&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&lt;img src="https://putz.space/images/mastodon/post-privacy.png" alt="post privacy settings" /&gt;&lt;/p&gt;
