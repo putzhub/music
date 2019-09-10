@@ -38,9 +38,10 @@
 <body id="index" class="home">
         <header id="banner" class="body">
                 <nav><ul>
+                    <li ><a href="https://putz.space/category/blog.html">blog</a></li>
                     <li><a href="https://putz.space/contact/">contact</a></li>
                     <li><a href="https://putz.space/music/">music</a></li>
-                    <li ><a href="https://putz.space/category/blog.html">blog</a></li>
+                <li><a href="http://social.putz.space">social</a></li>
                 </ul></nav>
         </header><!-- /#banner -->
         
@@ -48,211 +49,97 @@
 
             <aside id="featured" class="body">
                 <article>
-                    <h1 class="entry-title"><a href="https://putz.space/blog/intro-to-mastodon/">Introduction to Mastodon</a></h1> 
+                    <h1 class="entry-title"><a href="https://putz.space/blog/making-friends-mastodon/">Making friends on Mastodon</a></h1> 
 <footer class="post-info">
-        <abbr class="published" title="2019-09-09T18:48:41.429993-05:00">
+        <abbr class="published" title="2019-09-09T19:52:34.479619-05:00">
                 lun 09 septiembre 2019
         </abbr>
 
-<p class="tag-list"><a href="https://putz.space/tag/tech.html">#tech</a> <a href="https://putz.space/tag/social.html">#social</a> <a href="https://putz.space/tag/mastodon.html">#mastodon</a> </p></footer><!-- /.post-info --><p><a name="faq"></p>
-<h2>F.A.Q: How does it work?</h2>
-<p></a>
-The following is meant as a quick guide. Focused on a heavy use of visuals. Should take no more than 10 minutes to read. Useful as a reference too.</p>
-<p>Targeted at <a href="http://social.putz.space/" target="_blank">my own instance</a>, but should be applicable to anyone's roughly.</p>
-<p><strong>FYI:</strong> you can log into any Mastodon server with an app. Check out <a href="http://joinmastodon.org/apps">this list for one that suits you</a>. Apps can add features that Mastodon itself is lacking while making the experience more cohesive.</p>
-<p>Share how you will! Any questions not answered by this post can probably be found on <a href="https://docs.joinmastodon.org/" target="_blank">https://docs.joinmastodon.org/</a>.</p>
-<p>P.S: This document has been revised since it was created on the date above. Added links to apps, new sections covering more and fixed errors.</p>
-<h4>Table of Contents</h4>
-<p><div id="toc">
-<p id="toc-header">Contents</p>
-<ul>
-<li><a href="#faq">F.A.Q: How does it work?</a></li>
-<li><a href="#terminology">Terminology</a></li>
-<li><a href="#timelines">Timelines</a></li>
-<ul>
-    <li><a href="#timeline-personal">Personal</a></li>
-    <li><a href="#timeline-local">Local</a></li>
-    <li><a href="#timeline-federated">Federated</a></li>
-    <li><a href="#timeline-notifications">Notifications</a></li>
-</ul>
-<li><a href="#searching">Searching</a></li>
-<ul>
-    <li><a href="#searching-hashtag">Hashtags</a></li>
-    <li><a href="#searching-users">Users</a></li>
-</ul>
-<li><a href="#profile">Profile preferences</a></li>
-<ul>
-    <li><a href="#public-profile">Public profile</a></li>
-</ul>
-<li><a href="#filtering-feeds">Filtering</a></li>
-<ul>
-    <li><a href="#filtering-posts">Post Filters</a></li>
-    <li><a href="#filtering-users">Users</a></li>
-    <li><a href="#filtering-lists">Lists</a></li>
-</ul>
-<li><a href="#following">Following feeds</a></li>
-<li><a href="#posting">Posting</a></li>
-<ul>
-    <li><a href="#post-privacy">Privacy settings</a></li>
-    <li><a href="#content-warnings">Content Warnings</a></li>
-    <li><a href="#post-poll">Polls</a></li>
-</ul>
-<li><a href="#account-migration">Account Migration</a></li>
-<li><a href="#comments">Comments</a></li>
-</ul>
-</div></p>
-<p><a name="terminology"></p>
-<h2>Terminology</h2>
-<p></a>
-Mastodon specific words that you may encounter:</p>
-<ul>
-<li><strong>Toot:</strong> post (if birds <em>tweet</em> then mastodons <em>toot</em>).</li>
-<li><strong>Boost, retoot:</strong> a shared post or the act of sharing.</li>
-<li><strong>Instance:</strong> a Mastodon server.</li>
-<li><strong>Favorite:</strong> a like that notifies the poster and saves to a list of favorites.</li>
-<li><strong>Content Warning, cw:</strong> a content warning lets you know what's coming before you read it. Can be a way to prepare people for sensitive conversations or long-winded ones.</li>
-<li><strong>Federation:</strong> how posts reach your account since there's no singular central server. It's like a big game of telephone to get posts to you.</li>
-<li><strong>The Fedi, The Fediverse:</strong> The web of applications that federate. i.e: <a href="http://joinmastodon.org" target="_blank">Mastodon</a>, <a href="http://pixelfed.org" target="_blank">Pixelfed</a>, <a href="https://pleroma.social/" target="_blank">Pleroma</a>, <a href="http://fediverse.party" target="_blank">etc</a> are all social media platforms that share posts and users with one another.</li>
-</ul>
-<p><a name="timelines"></p>
-<h2>Timelines</h2>
-<p></a>
-There are types of feeds: <strong>Personal, Local</strong> and <strong>Federated</strong>.</p>
-<p><a name="timeline-personal"></p>
-<h3>Personal</h3>
-<p></a>
-The <strong>Personal</strong> timeline shows you the posts &amp; boosts from people you follow. When you first join you'll only see posts from the administrator.</p>
-<p>As you make friends and follow people, this will fill up (hopefully).</p>
-<p><img src="https://putz.space/images/mastodon/followers-feed.png" alt="Personal feed" /></p>
-<p><a name="timeline-local"></p>
-<h3>Local</h3>
-<p></a>
-The <strong>Local</strong> timeline is the place where everyone who is on the same server can talk to each other, like a town plaza. Here's a picture of how mine looks now. Depending on how many people are active this is usually a slower moving feed.</p>
-<p><img alt="local timeline" src="https://putz.space/images/mastodon/local-feed.png" /></p>
-<p><a name="timeline-federated"></p>
-<h3>Federated</h3>
-<p></a>
-The <strong>Federated</strong> timeline is a feed of:</p>
-<ul>
-<li>everyone who is posting public messages on the <strong>Local</strong> timeline.</li>
-<li>people who who are followed by any user on the server.</li>
-<li>boosted posts of the people those users follow.</li>
-<li>If connected to a relay, everyone on the fediverse.</li>
-</ul>
-<p>In my case, we're connected to a relay with certain instances being blacklisted from mine for different reasons. However a relay is not necessary, in which case the community will probably be smaller.</p>
-<p><img alt="federated timeline" src="https://putz.space/images/mastodon/federated-feed.png" /></p>
-<p><a name="timeline-notifications"></p>
-<h3>Notifications</h3>
-<p></a></p>
-<p>Notifications are given in a timeline as well. They update you with any mentions, follows, boosts of posts, favorites. You can use the configuration button to the right of the Notifications heading to filter what is shown too.</p>
-<p><img alt="notification timeline" src="https://putz.space/images/mastodon/notifications-feed.png" /></p>
-<p><a name="searching"></p>
-<h2>Searching</h2>
-<p></a>
-Finding stuff on Mastodon is fairly easy. The feeds automatically refresh if you scroll to the top. Hashtags are clickable to search for more posts. The search bar also lets you find things.</p>
-<p>You can search for users, hashtags and on some servers even  post contents.</p>
-<p><img src="https://putz.space/images/mastodon/search-bar.png" alt="search bar" /></p>
-<p><a name="searching-hashtag"></p>
-<h3>Hashtag</h3>
-<p></a>
-Let's look at the hashtags for example. All posts with <strong>#music</strong> will be displayed:</p>
-<p><img src="https://putz.space/images/mastodon/search-hashtag.png" alt="hashtag search" /></p>
-<p><a name="searching-users"></p>
-<h3>Users</h3>
-<p></a></p>
-<p>Users are searchable as well. You can either use just the username or the username and the domain name if you know it.</p>
-<p><img src="https://putz.space/images/mastodon/search-users.png" alt="hashtag search" /></p>
-<p><a name="profile"></p>
-<h2>Profile preferences</h2>
-<p></a></p>
-<p>To access click the preferences tab either at the end of navigation bar or the arrows next to your username.</p>
-<p><img src="https://putz.space/images/mastodon/preferences.png" alt="preferences" /></p>
-<p><a name="public-profile"></p>
-<h3>Public profile</h3>
-<p></a>
-Here you can edit your <strong>avatar</strong>, <strong>profile page image header</strong>, set a <strong>description</strong> and change your <strong>display name</strong> as well. </p>
-<p>You can choose to make your account private so that only approved people can follow you. <em>Note:</em> This defaults your posts to private, so you'll have to manually set them to public to be visible on the local and federated timelines. By default it's the opposite if you're not set as private. More on that <a href="#post-privacy">here</a>.</p>
-<p><img src="https://putz.space/images/mastodon/preferences-profile.png" alt="profile preferences" /></p>
-<p>The profile also includes a table that you can use to set labels and contents for things like indicating which website people can find your music at or even labeling your gender pronouns. It's customizable based on your own interests.</p>
-<p><img src="https://putz.space/images/mastodon/profile-table.png" alt="profile preferences" /></p>
-<p><a name="filtering-feeds"></p>
-<h2>Filtering</h2>
-<p></a>
-Mastodon is about putting control of the feed back into not only community hands, but also into <em>your</em> hands.</p>
-<p><a name="filtering-posts"></p>
-<h3>Post Filters</h3>
-<p></a>
-One option for this is in the preferences menu under filters. Here you can set posts with keywords to be automatically filtered and from whichever timeline for however long.</p>
-<p><img src="https://putz.space/images/mastodon/preferences-filters.png" alt="filters" /></p>
-<p><a name="filtering-users"></p>
-<h3>Users</h3>
-<p></a>
-On the timeline if you find someone annoying, just block them, mute them, or even report them. Especially if anyone from the federated timeline is harassing other users. To filter posts directly, click the elipses in the post to either report, block or silence a user.</p>
-<p><img src="https://putz.space/images/mastodon/post-menu.png" alt="filtering content" /></p>
-<p><a name="filtering-lists"></p>
-<h3>Lists</h3>
-<p></a>
-To specifically follow different sets of users you can use lists. To access your lists use the menu at the end of the navigation bar or just navigate to <strong>Lists</strong> if already visible. Useful for following a certain group of friends, people who post about a particular topic or whatever's important to you.</p>
-<p>Type in the textbox to create a new list. Click on the list then click on edit list in the configuration dropdown box pictured below to add or remove people you want to follow. </p>
-<p><em>Note:</em> you must be following them to add them. The list only populates after creation too (old posts won't show up).</p>
-<p><img src="https://putz.space/images/mastodon/lists.png" alt="lists" /></p>
-<p><a name="following"></p>
-<h2>Following feeds</h2>
-<p></a>
-In order to follow users click on their name and it will take you to their page. You'll see their landing page and toots. From here you can click follow in the upper right corner if you want to follow them or you can click the 3 dots to choose a different action. </p>
-<p>This is what the public sees when they click on your page.</p>
-<p><img src="https://putz.space/images/mastodon/profile-page.png" alt="profile page" /></p>
-<p><a name="posting"></p>
-<h2>Posting</h2>
-<p></a>
-To post click the compose button in the bottom right corner or the reply arrow on a toot. If you're on desktop it could be visible on the left-hand side already.</p>
-<p><a name="post-privacy"></p>
-<h3>Privacy settings</h3>
-<p></a>
-Mastodon allows you to set 4 different privacy settings:</p>
-<ul>
-<li><strong>Public:</strong> everyone can see it (federated)</li>
-<li><strong>Unlisted:</strong> everyone can see it, but it's not on the public timelines</li>
-<li><strong>Private:</strong> only followers can see (not the public)</li>
-<li><strong>Direct message:</strong> only addressed users get the message</li>
-</ul>
-<p><img src="https://putz.space/images/mastodon/post-privacy.png" alt="post privacy settings" /></p>
-<p><a name="content-warnings"></p>
-<h3>Content Warnings</h3>
-<p></a></p>
-<p>If you click on CW it will label the post behind a content warning that will hide your post until it's clicked. This is useful for sensitive subjects or really long posts so that they don't clog up the feed. </p>
-<p>Popular content warnings include but are not limited to:</p>
-<ul>
-<li>NSFW or lewd</li>
-<li>pol (politics)</li>
-<li>selfie (eye contenat/no eye contact)</li>
-<li>long</li>
-<li>meta (regarding mastodon)</li>
-<li>abuse (thoughts or stories relating to abuse)</li>
-<li>mh (mental health)</li>
-</ul>
-<p><img src="https://putz.space/images/mastodon/post-content-warning.png" alt="posting comments" /></p>
-<p><a name="post-poll"></p>
-<h3>Polls</h3>
-<p></a>
-You can start a poll that will notify users of results after expiration.</p>
-<p><img src="https://putz.space/images/mastodon/post-poll.png" alt="poll" /></p>
-<p><a name="account-migration"></p>
-<h2>Account Migration</h2>
-<p></a>
-Given the federated nature of the platform, you may decide to change servers some day but still want to keep the list of people you're following, people you've blocked and more. Not everything can be exported, but it can make transitioning to a new account much smoother.</p>
-<p>You can also choose to delete your account as well, but that's permanent.</p>
-<p><img src="https://putz.space/images/mastodon/profile-import-export.png" alt="poll" /></p>
-<p><a name="comments"></p>
-<h2>Comments</h2>
-<p></a>
-<iframe src="https://social.putz.space/@pootz/102720566051051746/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="100%" allowfullscreen="allowfullscreen"></iframe><script src="https://social.putz.space/embed.js" async="async"></script></p>
+<p class="tag-list"><a href="https://putz.space/tag/tech.html">#tech</a> <a href="https://putz.space/tag/social.html">#social</a> <a href="https://putz.space/tag/mastodon.html">#mastodon</a> </p></footer><!-- /.post-info --><p><img src="https://putz.space/images/mastodon/mastodon-logo.png" alt="mastodon logo" class="article-image" /></p>
+<h1>Ready to post but no one to listen...</h1>
+<p>You've finally made an account on <a href="https://social.putz.space">social.putz.space</a> and <a href="https://putz.space/blog/intro-to-mastodon/">read my quick intro</a>. The only thing left now is to make friends! Even if you don't necessarily want to make friends, this guide should help you find people to follow other than me.</p>
+<p>I reached out to the Fediverse to ask people how they make friends. After reading what people had to say I've identified three key things you can do:</p>
+<h1>Introduce yourself</h1>
+<p>Start by introducing yourself. You should use the <strong>#introductions</strong> hashtag with a brief description of your interests (particularly the ones you'd like to post about). Use a # to tag words and make them searchable so that people can easily see what you're interested in. </p>
+<p>Make it fun! This isn't work and it's not a dating app. Just be yoursef and own it. Odds are it'll fly right by on the Federated timeline anyway as a blip in the many toots of Mastodon history. No reason to be scared.</p>
+<p>Plus it's a great way to connect with people on the Local timeline. On mine it's probably people you already know, but even if you're on a different instance there are people eager to see who else is on the same server. </p>
+<p><strong>Note:</strong> <em>in order to post to the timeline your posts have to be set to public.</em></p>
+<p><img src="https://putz.space/images/mastodon/introductions.png" alt="me introducing myself on Mastodon" /></p>
+<h1>Follow people</h1>
+<p>On the Local or Federated timelines if you notice anyone who has interesting stuff to say, goofy shitposts or whatever draws your attention, check out their profile by clicking on their name. If you like their style then give 'em a follow! They might even follow you back.</p>
+<p>If you follow someone active then you'll probably find more people to follow too, because you'll see who they're chatting with and boosting.</p>
+<p>You can search by hashtag too. That way you can find posts lost to the sands of time without losing the people who post them.</p>
+<p>Lastly, you could always try the profile directory. It's optional though so not everyone is on it. If you want to be on it then enable the option in your profile preferences. To access it click on the menu button or just type the base url of the instance (social.putz.space in my case) and at /explore at the end.</p>
+<p><img src="https://putz.space/images/mastodon/profile-directory-option.png" alt="profile directory option" /></p>
+<h1>Be active</h1>
+<p>While it may seem awkward or make you nervous at first, you should just post! At least on putz social, you should feel like you're in a space where you can be genuine with who you are. You should post to your heart's content as long as that doesn't interfere with someone elses ability to do the same.</p>
+<p>Since Mastodon doesn't have all the recommendations that Facebook or Twitter does for friends, memes, ideas, etc constantly in your face you have to actually post to be seen. Otherwise nobody will ever find you. Which is fine if that's what you want, but if you want to meet people then you've gotta post.</p>
+<p>Interacting with people on the Fediverse is welcome. If you have a comment that will help someone's problem, brighten someone's day or if you've got something to say, then post it. Of course, favoriting and boosting are great ways to show appreciation and share good content with friends too. But only people who are following you can see your boosts.</p>
+<p>Over time the more you interact with people, hopefully the more they'll feel like friends.</p>
+<p>If you need examples, here's one time when I complimented someone's avatar. Afterwards we started following each other!</p>
+<p><img src="https://putz.space/images/mastodon/friends.png" alt="complimenting someone's avatar"></p>
+<h1>Comments</h1>
+<p>Post here if you've got comments or questions!</p>
+<iframe src="https://social.putz.space/@pootz/102730959960835232/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="100%" allowfullscreen="allowfullscreen"></iframe>
+
+<script src="https://social.putz.space/embed.js" async="async"></script>
                 </article>
             </aside><!-- /#featured -->
                 <section id="content" class="body">
                     <h1>Other articles</h1>
                     <hr />
                     <ol id="posts-list" class="hfeed">
+        
+
+ 
+            <li><article class="hentry">    
+                <header>
+                        <h1><a href="https://putz.space/blog/making-friends-mastodon-conflicted-copy-2019-09-09-195118/" rel="bookmark" title="Permalink to Making friends on Mastodon">Making friends on Mastodon</a></h1>
+                </header>
+                
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2019-09-09T19:51:18.230090-05:00">
+                lun 09 septiembre 2019
+        </abbr>
+
+<p class="tag-list"><a href="https://putz.space/tag/tech.html">#tech</a> <a href="https://putz.space/tag/social.html">#social</a> <a href="https://putz.space/tag/mastodon.html">#mastodon</a> </p></footer><!-- /.post-info -->                <p>Now that you've got an account on social.putz.space and know how to use Mastodon, the only thing left is finding people. More than just following people though, the Fediverse offers a cool space to meet people you wouldn't meet elsewhere. Let's learn how to make friends and follow people!</p>
+                </div><!-- /.entry-content -->
+            </article></li>
+        
+
+ 
+            <li><article class="hentry">    
+                <header>
+                        <h1><a href="https://putz.space/blog/making-friends-mastodon-conflicted-copy-2019-09-09-193659/" rel="bookmark" title="Permalink to Making friends on Mastodon">Making friends on Mastodon</a></h1>
+                </header>
+                
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2019-09-09T19:36:59.203686-05:00">
+                lun 09 septiembre 2019
+        </abbr>
+
+<p class="tag-list"><a href="https://putz.space/tag/tech.html">#tech</a> <a href="https://putz.space/tag/social.html">#social</a> <a href="https://putz.space/tag/mastodon.html">#mastodon</a> </p></footer><!-- /.post-info -->                <p>Now that you've got an account on social.putz.space and know how to use Mastodon, the only thing left is finding people. More than just following people though, the Fediverse offers a cool space to meet people you wouldn't meet elsewhere. Let's learn how to make friends!</p>
+                </div><!-- /.entry-content -->
+            </article></li>
+        
+
+ 
+            <li><article class="hentry">    
+                <header>
+                        <h1><a href="https://putz.space/blog/intro-to-mastodon/" rel="bookmark" title="Permalink to Introduction to Mastodon">Introduction to Mastodon</a></h1>
+                </header>
+                
+                <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2019-09-09T18:51:36.674999-05:00">
+                lun 09 septiembre 2019
+        </abbr>
+
+<p class="tag-list"><a href="https://putz.space/tag/tech.html">#tech</a> <a href="https://putz.space/tag/social.html">#social</a> <a href="https://putz.space/tag/mastodon.html">#mastodon</a> </p></footer><!-- /.post-info -->                <p>I decided to create a quick start guide for people to reference that's visually focused. I didn't find any guides that I particularly liked for onboarding a complete beginner, so I made my own. Feel free to share this as you please!</p>
+                </div><!-- /.entry-content -->
+            </article></li>
         
 
  
@@ -362,65 +249,8 @@ Given the federated nature of the platform, you may decide to change servers som
 <p class="tag-list"><a href="https://putz.space/tag/personal.html">#personal</a> <a href="https://putz.space/tag/tech.html">#tech</a> <a href="https://putz.space/tag/self-help.html">#self-help</a> </p></footer><!-- /.post-info -->                <p>A friend on my feed recently shared a story about a day in the life of a Facebook moderator, which unsurprisingly isn't a great time. After reading it they were asking themself if they could genuinely leave Facebook. That inspired me to ask the question on my feed "What keeps you on Facebook?", hoping that I could write about my experience leaving and what I did to replace the things that kept me there. Enjoy!</p>
                 </div><!-- /.entry-content -->
             </article></li>
-        
-
- 
-            <li><article class="hentry">    
-                <header>
-                        <h1><a href="https://putz.space/blog/keep-it-together/" rel="bookmark" title="Permalink to How I keep it together">How I keep it together</a></h1>
-                </header>
-                
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2019-06-01T15:15:32.087404-05:00">
-                sáb 01 junio 2019
-        </abbr>
-
-<p class="tag-list"><a href="https://putz.space/tag/diy.html">#diy</a> <a href="https://putz.space/tag/life.html">#life</a> <a href="https://putz.space/tag/self-help.html">#self-help</a> <a href="https://putz.space/tag/personal.html">#personal</a> </p></footer><!-- /.post-info -->                <p>A while back in college I decided to start keeping a daily log and to-do list. That sparked a few routines that I started to use to keep my life together. I figured some people might find it helpful if I reflected on that journey and how I started adulting. So yeah, enjoy!</p>
-                </div><!-- /.entry-content -->
-            </article></li>
-        
-
- 
-            <li><article class="hentry">    
-                <header>
-                        <h1><a href="https://putz.space/music/demos/morning-rise/" rel="bookmark" title="Permalink to Groove Masta Putz - Morning Rise">Groove Masta Putz - Morning Rise</a></h1>
-                </header>
-                
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2019-05-18T00:00:00-05:00">
-                sáb 18 mayo 2019
-        </abbr>
-
-<p class="tag-list"><a href="https://putz.space/tag/music.html">#music</a> <a href="https://putz.space/tag/demo.html">#demo</a> </p></footer><!-- /.post-info -->                <p><img alt="Futuristic Society Tower" src="https://putz.space/blog/covers/morning-rise.jpg" id="article-image" /><a target="_blank" href="https://ccsearch.creativecommons.org/photos/ddd846a6-3c34-4dc7-9e72-af0486a29df4">img source</a></p>
-<p><audio controls id="player">
-    <source id="song" src="https://putz.space/music/demos/Groove Masta Putz - Morning Rise.mp3" type="audio/mp3" />
-    Your browser does not support the audio tag. See the arrow below for direct link.
-</audio></p>
-<p><a href="https://putz.space/music/demos/Groove Masta Putz - Morning Rise.mp3"><img alt="Direct link" src="https://putz.space/images/icons/download.png"></a> <a href="https://soundcloud.com/groovemastaputz/groove-masta-putz-morning-rise"><img alt="SoundCloud" src="https://putz.space/images/icons/soundcloud.png"></a> <a href="https://www.newgrounds.com/audio/listen/863766"><img alt="Newgrounds" src="https://putz.space/images/icons/newgrounds.png"></a></p>
-<p>Woke up this morning and decided go on a musical journey until I came up with this demo. Could expand later, but in the meantime let this take you on a journey through …</p>
-                </div><!-- /.entry-content -->
-            </article></li>
-        
-
- 
-            <li><article class="hentry">    
-                <header>
-                        <h1><a href="https://putz.space/blog/diy-car-repair/" rel="bookmark" title="Permalink to How I learned DIY auto repair">How I learned DIY auto repair</a></h1>
-                </header>
-                
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2019-05-16T22:15:57.353242-05:00">
-                jue 16 mayo 2019
-        </abbr>
-
-<p class="tag-list"><a href="https://putz.space/tag/diy.html">#diy</a> <a href="https://putz.space/tag/auto.html">#auto</a> </p></footer><!-- /.post-info -->                <p>Ever since dealing with a crap car, it became clear I needed to learn more about cars. So here's how I did that! I focused on the process because there's already plenty of resources out there for specific repairs. I felt it would be helpful to look at how I prepared to do rust removal on my car as an example to share. Enjoy!</p>
-                </div><!-- /.entry-content -->
-            </article></li>
 <p class="paginator">
-    Page 1 / 2
+    Page 1 / 3
         <a href="https://putz.space/index2.html">&raquo;</a>
 </p>
             </ol><!-- /#posts-list -->
