@@ -236,7 +236,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 #featured {
 	background: #202020;
 	border: 1px solid #EAEAEA;
-    margin: 6px 10px 0 10px; 
+    margin: 6px 0 0 0; 
 	overflow: hidden;
 	padding: 20px;
 	
@@ -265,7 +265,7 @@ img.left, figure.left {float: right; margin: 0 0 2em 2em;}
 #content {
 	background: #202020;
     border: 1px solid #EAEAEA;
-	margin: 6px 10px 0 10px;
+	margin: 6px 0 0 0;
 	overflow: hidden;
 	padding: 20px;
 	
