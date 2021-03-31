@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <title>Ringtones & Notifications</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="https://putz.space/theme/css/main.css" type="text/css" />
+        <link rel="shortcut icon" href="https://putz.space/images/favicon.ico" />
+
+        <!--[if IE]>
+                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+
+        <!--[if lte IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://putz.space/css/ie.css"/>
+                <script src="https://putz.space/js/IE8.js" type="text/javascript"></script><![endif]-->
+
+        <!--[if lt IE 7]>
+                <link rel="stylesheet" type="text/css" media="all" href="https://putz.space/css/ie6.css"/><![endif]-->
+
+        <script>
+        var song_list = [];
+
+        function play_music(song) {
+            var player = document.getElementById('player');
+
+            if (player.paused) {
+                player.src=song;
+                player.play();
+            } else {
+                player.pause()
+                player.src=song;
+                player.play();
+            }
+        }
+        </script>
+</head>
+
+<body id="index" class="home">
+        <header id="banner" class="body">
+                <nav><ul>
+                    <li><a href="https://putz.space/music/">music</a></li>
+                    <li class="active"><a href="https://putz.space/category/blog.html">blog</a></li>
+                </ul></nav>
+        </header><!-- /#banner -->
+<section id="content" class="body">
+  <article>
+    <header>
+      <h1 class="entry-title">
+        <a href="/blog/notification-sounds/" rel="bookmark"
+           title="Permalink to Ringtones & Notifications">Ringtones & Notifications</a></h1>
+    </header>
+
+    <div class="entry-content">
+<footer class="post-info">
+        <abbr class="published" title="2021-03-30T00:00:00-05:00">
+                mar 30 marzo 2021
+        </abbr>
+
+<p class="tag-list"><a href="https://putz.space/tag/music.html">#music</a> </p></footer><!-- /.post-info -->      <p>Hey there! I recently got a new phone and decided to make some ringtones and notifications. Feel free to use them how you wish. Some are older, but I still mixed them to sound a little better on phone. Hopefully.</p>
+<p>Anyway, just thought I'd share. Link: <a href="https://putz.space/music/notifications.zip">Download notification noises</a></p>
+<p>No demos since it's more work than I want to put in for a file you can download in less time than it'd take me to put together lol. Plus you're probably seeing this from my Instagram anyway, where I did upload demos.</p>
+    </div><!-- /.entry-content -->
+
+  </article>
+</section>
+        <section id="extras" class="body">
+                <div class="blogroll">
+                        <h2>blogroll</h2>
+                        <ul>
+                            <li><a href="http://putz.space/feeds/all.atom.xml">ATOM Feed</a></li>
+                            <li><a href="http://putz.space/feeds/all.rss.xml">RSS Feed</a></li>
+                        </ul>
+                </div><!-- /.blogroll -->
+                <div class="social">
+                        <h2>social</h2>
+                        <ul>
+                            
+                            <li><a href="/contact">Contact</a></li>
+                            <li><a href="https://www.instagram.com/groovemastaputz/">Instagram</a></li>
+                            <li><a href="https://social.putz.space/@pootz">Mastodon</a></li>
+                            <li><a href="http://localhost:8000/images/icons/telegram.png">Telegram</a></li>
+                        </ul>
+                </div><!-- /.social -->
+        </section><!-- /#extras -->
+
+        <footer id="contentinfo" class="body">
+
+        </footer><!-- /#contentinfo -->
+</body>
+</html>
