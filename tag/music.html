@@ -1,277 +1,75 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en_us">
+
 <head>
-        <title>putz.space - music</title>
+        <title>Groove Masta Putz - music tag</title>
         <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="https://putz.space/theme/css/main.css" type="text/css" />
         <link rel="shortcut icon" href="https://putz.space/images/favicon.ico" />
-
-        <!--[if IE]>
-                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-
-        <!--[if lte IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="https://putz.space/css/ie.css"/>
-                <script src="https://putz.space/js/IE8.js" type="text/javascript"></script><![endif]-->
-
-        <!--[if lt IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="https://putz.space/css/ie6.css"/><![endif]-->
-
+        <!-- Javascript -->
         <script>
-        var song_list = [];
-
-        function play_music(song) {
-            var player = document.getElementById('player');
-
-            if (player.paused) {
-                player.src=song;
-                player.play();
-            } else {
-                player.pause()
-                player.src=song;
-                player.play();
-            }
-        }
+        const CHILL_TEAL = 0x083749;
+        const NEON_CYAN = 0x4ef0fb;
+        let bgcol = CHILL_TEAL;
+        document.body.backgroundImage = "linear-gradient(to right, transparent 1px, " + bgcol + " 2px, transparent 1px)," +
+        "linear-gradient(to bottom, transparent 1px, " + bgcol + " 2px, transparent 1px)";
+        document.write(bgcol);
         </script>
+        <!-- Feed stuff -->
+        <link href="https://putz.space/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Groove Masta Putz Full Atom Feed" />
+        <link href="https://putz.space/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Groove Masta Putz Full RSS Feed" />
+        <link href="https://putz.space/feeds/music.atom.xml" type="application/atom+xml" rel="alternate" title="Groove Masta Putz Tags Atom Feed" />
+        <link href="https://putz.space/feeds/music.rss.xml" type="application/rss+xml" rel="alternate" title="Groove Masta Putz Tags RSS Feed" />
 </head>
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <nav><ul>
-                    <li><a href="https://putz.space/music/">music</a></li>
-                    <li ><a href="https://putz.space/category/blog.html">blog</a></li>
-                </ul></nav>
+                <a href="/"><img src="/images/gmp-panoramic.jpeg" style="border: 3px groove #000;"/></a>
         </header><!-- /#banner -->
-        
-        
+        <nav id="menu"><ul>
+            <li><a href="/music/">MUSIC</a></li>
+            <li><a href="/category/news.html">NEWS</a></li>
+            <li><a href="/about/">ABOUT</a></li>
+            <li><a href="/contact/">CONTACT</a></li>
+        </ul></nav><!-- /#menu -->
+<section id="content">
+<h2>Articles tagged with music</h2>
 
-            <aside id="featured" class="body">
-                <article>
-                    <h1 class="entry-title"><a href="https://putz.space/blog/greed-pump-now-out/">Greed & Pump is Out!</a></h1> 
-<footer class="post-info">
-        <abbr class="published" title="2021-08-29T00:00:00-05:00">
-                dom 29 agosto 2021
-        </abbr>
+<iframe width="100%" height="500px" src="https://www.youtube.com/embed/videoseries?list=UUuqxxnitCQAvRvNzx4FAJIg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-<p class="tag-list"><a href="https://putz.space/tag/music.html">#music</a> </p></footer><!-- /.post-info --><iframe width="746" height="420" src="https://www.youtube.com/embed/WXjypyDt_rs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-<p>Hey everyone! You've probably heard by now but I took part in the <a href="https://itch.io/jam/brackeys-6">Brackeys game jam</a> recently and made music for a game called Greed &amp; Pump.</p>
-<p>If you want to listen to the music I have the tracks available in a .zip here for looping at the moment. I might get around to putting this up on spotify too eventually ;).</p>
-<p>Play the game in your browser here: <a href="https://infinitegamesds.itch.io/greed-pump">https://infinitegamesds.itch.io/greed-pump</a></p>
-<p><a href="https://putz.space/music/demos/GreedPump-Loops.zip">Click here if you want to download the soundtrack!</a></p>
-                </article>
-            </aside><!-- /#featured -->
-                <section id="content" class="body">
-                    <h1>Other articles</h1>
-                    <hr />
-                    <ol id="posts-list" class="hfeed">
-        
-
- 
-            <li><article class="hentry">    
-                <header>
-                        <h1><a href="https://putz.space/blog/new-synthesizer-korg-nautilus/" rel="bookmark" title="Permalink to My New Synth">My New Synth</a></h1>
-                </header>
-                
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2021-07-12T00:00:00-05:00">
-                lun 12 julio 2021
-        </abbr>
-
-<p class="tag-list"><a href="https://putz.space/tag/music.html">#music</a> </p></footer><!-- /.post-info -->                <p>I'm getting back into music everyone! Check me out on social media if you wanna keep up.</p>
-                </div><!-- /.entry-content -->
-            </article></li>
-        
-
- 
-            <li><article class="hentry">    
-                <header>
-                        <h1><a href="https://putz.space/blog/notification-sounds/" rel="bookmark" title="Permalink to Ringtones & Notifications">Ringtones & Notifications</a></h1>
-                </header>
-                
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2021-03-30T00:00:00-05:00">
-                mar 30 marzo 2021
-        </abbr>
-
-<p class="tag-list"><a href="https://putz.space/tag/music.html">#music</a> </p></footer><!-- /.post-info -->                <p>Check out these free ringtone and notification noises I made.</p>
-                </div><!-- /.entry-content -->
-            </article></li>
-        
-
- 
-            <li><article class="hentry">    
-                <header>
-                        <h1><a href="https://putz.space/blog/o-come-o-come-emmanuel-trap-remix/" rel="bookmark" title="Permalink to O Come O Come Emmanuel (Trap Remix)">O Come O Come Emmanuel (Trap Remix)</a></h1>
-                </header>
-                
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2020-12-24T00:00:00-06:00">
-                jue 24 diciembre 2020
-        </abbr>
-
-<p class="tag-list"><a href="https://putz.space/tag/music.html">#music</a> </p></footer><!-- /.post-info -->                <p>Decided to release a trap remix of the ol' Christmas classic to me making a VR christmas tree :).</p>
-                </div><!-- /.entry-content -->
-            </article></li>
-        
-
- 
-            <li><article class="hentry">    
-                <header>
-                        <h1><a href="https://putz.space/blog/remnants-released/" rel="bookmark" title="Permalink to Remnants has been Released!">Remnants has been Released!</a></h1>
-                </header>
-                
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2020-12-12T00:00:00-06:00">
-                sáb 12 diciembre 2020
-        </abbr>
-
-<p class="tag-list"><a href="https://putz.space/tag/music.html">#music</a> </p></footer><!-- /.post-info -->                <p>I just released my new album: Remnants! Check it out on the music page for more details.</p>
-                </div><!-- /.entry-content -->
-            </article></li>
-        
-
- 
-            <li><article class="hentry">    
-                <header>
-                        <h1><a href="https://putz.space/blog/update-where-my-music-is-0/" rel="bookmark" title="Permalink to Update to the "Where is my Music?" list">Update to the "Where is my Music?" list</a></h1>
-                </header>
-                
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2020-08-08T00:00:00-05:00">
-                sáb 08 agosto 2020
-        </abbr>
-
-<p class="tag-list"><a href="https://putz.space/tag/music.html">#music</a> </p></footer><!-- /.post-info -->                <p>Here's some random vids I found using my music. I've updated the list on the music page as well.</p>
-                </div><!-- /.entry-content -->
-            </article></li>
-        
-
- 
-            <li><article class="hentry">    
-                <header>
-                        <h1><a href="https://putz.space/music/demos/whats-on-my-screen" rel="bookmark" title="Permalink to Whats On My Screen?">Whats On My Screen?</a></h1>
-                </header>
-                
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2020-02-02T13:05:12-06:00">
-                dom 02 febrero 2020
-        </abbr>
-
-<p class="tag-list"><a href="https://putz.space/tag/music.html">#music</a> <a href="https://putz.space/tag/demo.html">#demo</a> </p></footer><!-- /.post-info -->                <p><audio controls id="player">
-    <source id="song" src="https://putz.space/music/demos/Whats On My Screen.mp3" type="audio/mp3" />
-    Your browser does not support the audio tag. See below for direct link.
-</audio></p>
-<p><a href="https://putz.space/music/demos/Whats On My Screen.mp3"><img alt="Direct link" src="https://putz.space/images/icons/download.png"></a> <a href="https://soundcloud.com/groovemastaputz/whats-on-my-screen"><img alt="SoundCloud" src="https://putz.space/images/icons/soundcloud.png"></a></p>
-<p>Jammed with a good buddy and came up with this. He was on the drums, I did synth and vocals. Just lettin' it out man. What's going on in this fucked up crazy world?</p>
-<p><a href="https://putz.space/music/demos/Whats On My Screen (Instrumental).mp3">Link to the …</a></p>
-                </div><!-- /.entry-content -->
-            </article></li>
-        
-
- 
-            <li><article class="hentry">    
-                <header>
-                        <h1><a href="https://putz.space/music/demos/the-shit-show" rel="bookmark" title="Permalink to Groove Masta Putz - The Shit Show... for Mother Base">Groove Masta Putz - The Shit Show... for Mother Base</a></h1>
-                </header>
-                
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2019-08-04T11:26:17-05:00">
-                dom 04 agosto 2019
-        </abbr>
-
-<p class="tag-list"><a href="https://putz.space/tag/music.html">#music</a> <a href="https://putz.space/tag/demo.html">#demo</a> </p></footer><!-- /.post-info -->                <p><img src="https://putz.space/blog/covers/for-mother-base.jpg" alt="Futuristic tree dome"/></p>
-<p><a href="https://www.mnn.com/lifestyle/eco-tourism/blogs/worlds-tallest-indoor-waterfall-will-be-located-in-spectacular-airport" target="_blank">img source</a></p>
-<p><audio controls id="player">
-    <source id="song" src="https://putz.space/music/demos/The Shit Show... for Mother Base.mp3" type="audio/mp3" />
-    Your browser does not support the audio tag. See below for direct link.
-</audio></p>
-<p><a href="https://putz.space/music/demos/The Shit Show... for Mother Base.mp3"><img alt="Direct link" src="https://putz.space/images/icons/download.png"></a> <a href="https://soundcloud.com/groovemastaputz/the-shit-show-for-mother-base"><img alt="SoundCloud" src="https://putz.space/images/icons/soundcloud.png"></a> <a href="https://www.newgrounds.com/audio/listen/875209"><img alt="Newgrounds" src="https://putz.space/images/icons/newgrounds.png"></a></p>
-<p>Came home late last night and got inspired to write some raps. Decided I wanted to rap over <a href="https://www.youtube.com/watch?v=nZ3FvYYBniA" target="_blank">The Base from Sonic Adventure 2</a> so I spruced it up and wrote about the Earth as …</p>
-                </div><!-- /.entry-content -->
-            </article></li>
-        
-
- 
-            <li><article class="hentry">    
-                <header>
-                        <h1><a href="https://putz.space/music/demos/morning-rise/" rel="bookmark" title="Permalink to Groove Masta Putz - Morning Rise">Groove Masta Putz - Morning Rise</a></h1>
-                </header>
-                
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2019-05-18T00:00:00-05:00">
-                sáb 18 mayo 2019
-        </abbr>
-
-<p class="tag-list"><a href="https://putz.space/tag/music.html">#music</a> <a href="https://putz.space/tag/demo.html">#demo</a> </p></footer><!-- /.post-info -->                <p><img alt="Futuristic Society Tower" src="https://putz.space/blog/covers/morning-rise.jpg" id="article-image" /><a target="_blank" href="https://ccsearch.creativecommons.org/photos/ddd846a6-3c34-4dc7-9e72-af0486a29df4">img source</a></p>
-<p><audio controls id="player">
-    <source id="song" src="https://putz.space/music/demos/Groove Masta Putz - Morning Rise.mp3" type="audio/mp3" />
-    Your browser does not support the audio tag. See the arrow below for direct link.
-</audio></p>
-<p><a href="https://putz.space/music/demos/Groove Masta Putz - Morning Rise.mp3"><img alt="Direct link" src="https://putz.space/images/icons/download.png"></a> <a href="https://soundcloud.com/groovemastaputz/groove-masta-putz-morning-rise"><img alt="SoundCloud" src="https://putz.space/images/icons/soundcloud.png"></a> <a href="https://www.newgrounds.com/audio/listen/863766"><img alt="Newgrounds" src="https://putz.space/images/icons/newgrounds.png"></a></p>
-<p>Woke up this morning and decided go on a musical journey until I came up with this demo. Could expand later, but in the meantime let this take you on a journey through …</p>
-                </div><!-- /.entry-content -->
-            </article></li>
-        
-
- 
-            <li><article class="hentry">    
-                <header>
-                        <h1><a href="https://putz.space/music/demos/the-time-it-takes" rel="bookmark" title="Permalink to Groove Masta Putz - The Time It Takes">Groove Masta Putz - The Time It Takes</a></h1>
-                </header>
-                
-                <div class="entry-content">
-<footer class="post-info">
-        <abbr class="published" title="2019-05-05T00:00:00-05:00">
-                dom 05 mayo 2019
-        </abbr>
-
-<p class="tag-list"><a href="https://putz.space/tag/music.html">#music</a> <a href="https://putz.space/tag/demo.html">#demo</a> </p></footer><!-- /.post-info -->                <p><img alt="Space Skeleton Gif" src="https://putz.space/blog/covers/the-time-it-takes.gif" id="article-image" /><a target="_blank" href="https://jjjjjjjjjjohn.tumblr.com/post/101986737985">img source</a></p>
-<p><audio controls id="player">
-    <source id="song" src="https://putz.space/music/demos/Groove Masta Putz - The Time It Takes.mp3" type="audio/mp3" />
-    Your browser does not support the audio tag. See below for direct link.
-</audio></p>
-<p><a href="https://putz.space/music/demos/Groove Masta Putz - The Time It Takes.mp3"><img alt="Direct link" src="https://putz.space/images/icons/download.png"></a></p>
-<p>Played on the Casio before going to bed. There's not enough time in the day. So I played in the night. Headphones encouraged.</p>
-<p><em>Music licensed under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons 4.0 - Attribution license</a>!</em></p>
-                </div><!-- /.entry-content -->
-            </article></li>
-<p class="paginator">
-    Page 1 / 2
-        <a href="https://putz.space/tag/music2.html">&raquo;</a>
-</p>
-            </ol><!-- /#posts-list -->
-            </section><!-- /#content -->
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>blogroll</h2>
-                        <ul>
-                            <li><a href="http://putz.space/feeds/all.atom.xml">ATOM Feed</a></li>
-                            <li><a href="http://putz.space/feeds/all.rss.xml">RSS Feed</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            
-                            <li><a href="/contact">Contact</a></li>
-                            <li><a href="https://www.instagram.com/groovemastaputz/">Instagram</a></li>
-                            <li><a href="https://social.putz.space/@pootz">Mastodon</a></li>
-                            <li><a href="http://localhost:8000/images/icons/telegram.png">Telegram</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
-
+<h2 style="text-align: center;">Latest News</h2>
+    <article class="hentry">
+            <header> 
+                <time class="published" datetime="2021-08-29T00:00:00-05:00"> 2021/08/29 </time>
+                <h2 class="entry-title"><a href="https://putz.space/news/greed-pump-now-out/" rel="bookmark">Greed & Pump is Out!</a></h2> 
+            </header>
+            <div class="entry-content"> <p>I recently participated in the Brackeys game jam and did music for a game called Greed &amp; Pump. Check it out! Play it in your browser.</p> </div><!-- /.entry-content -->
+    </article>
+ <!-- /#latest-news -->
+<div id="albums">
+    <h2 style = "text-align: center;">Music Collection</h2>
+        <a href="/music/remnants"><img alt="Remnants" src="/images/albums/remnants.png" class="thumbnail"/></a>
+        <a href="/music/groove-masta-putz"><img alt="Groove Masta Putz" src="/images/albums/groovemastaputz.jpg" class="thumbnail"/></a>
+        <a href="/music/electronic-poetry"><img alt="Electronic Poetry" src="/images/albums/electronicpoetry.jpg" class="thumbnail"/></a>
+        <a href="/music/90stalgia-groove-masta-putz"><img alt="90'STALGIA & Groove Masta Putz" src="/images/albums/90stalgia.jpg" class="thumbnail"/></a>
+        <a href="/music/wolfana-dirty-bootleg"><img alt="[WOLFANA DIRTY BOOTLEG]" src="/images/albums/wolfanadirtybootleg.jpg" class="thumbnail"/></a>
+        <a href="/music/dope-beets"><img alt="Dope Beets" src="/images/albums/dopebeets.jpg" class="thumbnail"/></a>
+        <a href="/music/week-by-week-vol-2"><img alt="Week by Week Vol. 2" src="/images/albums/weekbyweekvol2.jpg" class="thumbnail"/></a>
+        <a href="/music/escape-ep"><img alt="Escape EP" src="/images/albums/escape.jpg" class="thumbnail"/></a>
+        <a href="/music/a-brand-new-hip"><img alt="A Brand New Hip" src="/images/albums/abrandnewhip.jpg" class="thumbnail"/></a>
+</div>
+</section><!-- /#content -->
+<!-- /#content -->
         <footer id="contentinfo" class="body">
-
+                <ul class="social">
+                    <li><a href="/contact/"><img src="https://putz.space/images/icons/email.png" alt="email"/></a></li>
+                    <li><a href="https://www.instagram.com/groovemastaputz/"><img src="https://putz.space/images/icons/instagram.png" alt="instagram"/></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCuqxxnitCQAvRvNzx4FAJIg"><img src="https://putz.space/images/icons/youtube.png" alt="youtube"/></a></li>
+                    <li><a href="https://twitter.com/groovemastaputz"><img src="https://putz.space/images/icons/twitter.png" alt="twitter"/></a></li>
+                    <li><a href="https://www.snapchat.com/add/groovemastaputz"><img src="https://putz.space/images/icons/snapchat.png" alt="snapchat"/></a></li>
+                </ul>
         </footer><!-- /#contentinfo -->
 </body>
 </html>

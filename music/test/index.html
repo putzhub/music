@@ -1,50 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en_us">
+
 <head>
-        <title>Groove Masta Putz</title>
+          <title>Groove Masta Putz - Groove Masta Putz</title>
         <meta charset="utf-8" />
+        <meta name="generator" content="Pelican" />
         <meta name="viewport" content="width=device-width">
         <link rel="stylesheet" href="https://putz.space/theme/css/main.css" type="text/css" />
         <link rel="shortcut icon" href="https://putz.space/images/favicon.ico" />
-
-        <!--[if IE]>
-                <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
-
-        <!--[if lte IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="https://putz.space/css/ie.css"/>
-                <script src="https://putz.space/js/IE8.js" type="text/javascript"></script><![endif]-->
-
-        <!--[if lt IE 7]>
-                <link rel="stylesheet" type="text/css" media="all" href="https://putz.space/css/ie6.css"/><![endif]-->
-
+        <!-- Javascript -->
         <script>
-        var song_list = [];
-
-        function play_music(song) {
-            var player = document.getElementById('player');
-
-            if (player.paused) {
-                player.src=song;
-                player.play();
-            } else {
-                player.pause()
-                player.src=song;
-                player.play();
-            }
-        }
+        const CHILL_TEAL = 0x083749;
+        const NEON_CYAN = 0x4ef0fb;
+        let bgcol = CHILL_TEAL;
+        document.body.backgroundImage = "linear-gradient(to right, transparent 1px, " + bgcol + " 2px, transparent 1px)," +
+        "linear-gradient(to bottom, transparent 1px, " + bgcol + " 2px, transparent 1px)";
+        document.write(bgcol);
         </script>
+        <!-- Feed stuff -->
+        <link href="https://putz.space/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="Groove Masta Putz Full Atom Feed" />
+        <link href="https://putz.space/feeds/all.rss.xml" type="application/rss+xml" rel="alternate" title="Groove Masta Putz Full RSS Feed" />
+
+
 </head>
 
 <body id="index" class="home">
         <header id="banner" class="body">
-                <nav><ul>
-                    <li><a href="https://putz.space/music/">music</a></li>
-                    <li ><a href="https://putz.space/category/blog.html">blog</a></li>
-                </ul></nav>
+                <a href="/"><img src="/images/gmp-panoramic.jpeg" style="border: 3px groove #000;"/></a>
         </header><!-- /#banner -->
-        
-<section id="content" class="body">    
-    <h1 class="entry-title">Groove Masta Putz</h1>
+        <nav id="menu"><ul>
+            <li><a href="/music/">MUSIC</a></li>
+            <li><a href="/category/news.html">NEWS</a></li>
+            <li><a href="/about/">ABOUT</a></li>
+            <li><a href="/contact/">CONTACT</a></li>
+        </ul></nav><!-- /#menu -->
+<section id="content">
+    <h1>Groove Masta Putz</h1>
+    
+
     <script>
 var songs = document.getElementsByTagName("options");
 
@@ -111,7 +104,7 @@ for(i=0; i < songs.length; i++){
 <h3>The Nasty Patty Banger</h3>
 <p>Sampled some spongebob again, this time it was a bit more coherent and nasty. Real classic.</p>
 <h3>Narcissus (Phase 3)</h3>
-<p>Spritual successor to the first 2 phases found on the <a href="https://putz.space/music/eletronic-poetry">Electronic Poetry album</a>. Trance beats for dayz and this time for much longer.</p>
+<p>Spritual successor to the first 2 phases found on the <a href="https://putz.space/music/electronic-poetry">Electronic Poetry album</a>. Trance beats for dayz and this time for much longer.</p>
 <h3>Pull the Trigger</h3>
 <p>More dance beats with derpy bass and chill vibes.</p>
 <h3>In Da Lab (Feat. Beez)</h3>
@@ -137,28 +130,15 @@ for(i=0; i < songs.length; i++){
 <h3>Fading Memories (Fm9)</h3>
 <p>The lingering touch of recollection suspended on a single sustained chord, distorting over time in the same way that real memories do. Late one foggy night I recorded this all in one go with audacity. I used Renoise to put together the instruments so I could play multiple ones at the same time independently with the same dinky 25 key keyboard. If you could see the setup you'd be impressed it came out how it did, or at least I am. Very proud of this one and no one can take it away from me.</p>
 </section>
-        <section id="extras" class="body">
-                <div class="blogroll">
-                        <h2>blogroll</h2>
-                        <ul>
-                            <li><a href="http://putz.space/feeds/all.atom.xml">ATOM Feed</a></li>
-                            <li><a href="http://putz.space/feeds/all.rss.xml">RSS Feed</a></li>
-                        </ul>
-                </div><!-- /.blogroll -->
-                <div class="social">
-                        <h2>social</h2>
-                        <ul>
-                            
-                            <li><a href="/contact">Contact</a></li>
-                            <li><a href="https://www.instagram.com/groovemastaputz/">Instagram</a></li>
-                            <li><a href="https://social.putz.space/@pootz">Mastodon</a></li>
-                            <li><a href="http://localhost:8000/images/icons/telegram.png">Telegram</a></li>
-                        </ul>
-                </div><!-- /.social -->
-        </section><!-- /#extras -->
-
+<!-- /#content -->
         <footer id="contentinfo" class="body">
-
+                <ul class="social">
+                    <li><a href="/contact/"><img src="https://putz.space/images/icons/email.png" alt="email"/></a></li>
+                    <li><a href="https://www.instagram.com/groovemastaputz/"><img src="https://putz.space/images/icons/instagram.png" alt="instagram"/></a></li>
+                    <li><a href="https://www.youtube.com/channel/UCuqxxnitCQAvRvNzx4FAJIg"><img src="https://putz.space/images/icons/youtube.png" alt="youtube"/></a></li>
+                    <li><a href="https://twitter.com/groovemastaputz"><img src="https://putz.space/images/icons/twitter.png" alt="twitter"/></a></li>
+                    <li><a href="https://www.snapchat.com/add/groovemastaputz"><img src="https://putz.space/images/icons/snapchat.png" alt="snapchat"/></a></li>
+                </ul>
         </footer><!-- /#contentinfo -->
 </body>
 </html>
